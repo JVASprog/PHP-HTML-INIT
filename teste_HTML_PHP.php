@@ -25,9 +25,11 @@
             <header>
                 <h2 class="subtitle">Posts (por exemplo)</h2>
             </header>
-            <article>
+            <article class="post">
                 <header>
                     <h3 class="post_title">Post #1</h3>
+                    <img src="https://www.bgosoftware.com/blog/wp-content/uploads/2016/03/insidepost_coding.jpg"
+                    alt="Imagem aleatória com código na tela">
                 </header>
                 <p>
                     Este Texto aqui serve apenas como meio de 
