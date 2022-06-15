@@ -20,3 +20,14 @@
     *Caso a imagem esteja na web, pode-se colar o link completo do caminho da imagem
 
     <img alt="Foto do exemplo"> -> alternative guarda uma mensagem caso a imagem não seja carregada, melhora acessibilidade
+
+## LISTAS
+    <ul>  -> lista em que a ordem dos itens não são importantes
+    item 1
+    item 2
+
+    <ol>  -> lista em que a ordem é importante
+    1. item 1
+    2. item 3
+
+    <li> -> é um item da lista, seja <ol> ou <ul>

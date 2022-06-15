@@ -33,20 +33,30 @@
                     exemplificar a utilização do parágrafo no html 
                     e a utilização de links, então segue o link do meu github e do meu email
                     para abrir numa nova aba utilizando o target=_blank 
-                    <a href="https://github.com/ZezinZK/PHP-HTML-INIT" target="_blank">Link do git</a> 
+                    <a href="https://github.com/ZezinZK/PHP-HTML-INIT" target="_blank">Link do git</a>
                     <a href="mailto:josevogeleysa2016@gmail.com">email</a> e telefone caso esteja vendo pelo celular 
                     <a href="tel:+5581918182828">telefone</a>
 
                 </p>
             </article>
         </section>
-
+        
         <?php
             for ($i = 0; $i < 10; $i++){
                 print("<span class=\"linha\">Linha numero ". $i . "</span><br />");
             }
         ?>
-        
+        <footer>
+            <ul>Lista desordenada
+                <li>
+                    email: <a href="mailto:josevogeleysa2016@gmail.com">josevogeleysa2016@gmail.com</a>
+                </li>
+                <li>
+                    github: <a href="https://github.com/ZezinZK/PHP-HTML-INIT" target="_blank">Link do git</a>
+                </li>
+
+            </ul>
+        </footer>   
     </body>
     <script type = "text/javascript">
         $(document).ready(function(){
