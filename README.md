@@ -1,4 +1,4 @@
-# PHP-INIT
+# PHP-HTML-INIT
 Repositório Destinado à aplicações com PHP com aplicações de JavaScript, HTML, CSS e JQuery.
 
 ## Links Úteis
