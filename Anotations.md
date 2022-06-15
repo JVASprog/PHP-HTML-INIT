@@ -139,3 +139,59 @@
     border-radius: 50%;
     ou até 
     border-radius: 10% 20% 15% 22%;
+
+## EDITANDO TEXTOS
+
+    font-family -> Mudar o tipo de fonte da classe.
+    
+    exemplo:
+    .post_title{
+        font-family: Verdana, Arial;
+    }
+    
+    Obs.: No exemplo acima, foram declaradas dois tipos de fontes, isso serve para caso a primeira fonte não funcione, a segunda entra como backup.
+
+    font-size -> altera o tamanho do texto.
+
+    exemplo:
+    .post_title{
+        font-size: 18px;
+    }
+
+    font-style -> altera a aparecia da fonte(normal, italico).
+
+    exemplo:
+    .post_title{
+        font-style: italic;
+    }
+
+    font-weight -> altera o peso do texto. Para fontes mais simples temos o normal e o bold(negrito). Para fontes mais complexas temos outros valores.
+
+    exemplo:
+    .subtitle{
+        font-weight: bold;
+    }
+
+    text-transform -> alterna o texto entre maiúsculas e minúsculas
+    
+        lowercase -> deixa tudo em minuscula
+    
+        uppercase -> tudo em maiusculo
+    
+        capitalize -> coloca as primeiras letras de cada palavra no maiusculo
+
+    exemplo:
+    .subtitle{
+        text-transform: cpitalize;
+    }
+
+    text-decoration -> serve para marcar o texto.
+        underline -> sublinha o texto
+        overline -> passa a linha por cima da palavra
+        line-through -> passa a linha pelo meio da palavra
+
+    exemplo:
+    .post_title{
+        text-decoration: line-through;
+    }
+
