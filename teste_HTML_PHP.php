@@ -50,7 +50,7 @@
             }
         ?>
         <footer>
-            <ul>Lista desordenada
+            <ul class="contact_list">Lista desordenada
                 <li>
                     email: <a href="mailto:josevogeleysa2016@gmail.com">josevogeleysa2016@gmail.com</a>
                 </li>

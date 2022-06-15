@@ -63,7 +63,7 @@
         padding: 10px;
     }
 
-## ESTILOS PARA BOX MODEL
+## EDITANDO BOX MODEL
 
     Padding -> ajustando 10px no eixo Y e 5px no eixo X respectivamente
 
@@ -194,4 +194,29 @@
     .post_title{
         text-decoration: line-through;
     }
+
+## EDITANDO LISTAS
+
+    list-style-type -> existem varios estilos para os dois tipos de listas(ordenadas e não ordenadas), podemos mudar entre varios simbolos, incluindo emojis e imagens.
+
+    exemplo1: Lista nao ordenada
+    ul{
+        list-style-type: square;  -> quadrado
+    }
+
+    exemplo2: Lista ordenada
+    ul{
+        list-style-type: upper-roman;  -> algarismo romano maiusculo
+    }
+    
+    exemplo3: Lista nao ordenada
+    ul{
+        list-style-type: "\1F44D";  -> um emoji de joinha
+    }
+    
+    exemplo4: Lista nao ordenada
+    ul{
+        list-style-type: url("CAMINHO DA IMAGEM");  -> uma imagem
+    }
+
 
