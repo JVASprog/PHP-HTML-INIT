@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <title>primeiro site em PHP uhul</title>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+        <link rel="stylesheet" href="Style.css">
+        
         <style type= "text/css">
             .linha{
                 font-weight: bold;
@@ -18,15 +19,15 @@
         <header>
             <img src="https://s3-us-west-2.amazonaws.com/robogarden-new/Articles/upload/blogs/lg-leverage-of-coding.jpg"
             alt="Ilustração de um código aleatório">
-            <h1>Título Mais relevante</h1>
+            <h1 id="title">Título Mais relevante</h1>
         </header>
         <section>
             <header>
-                <h2>Posts (por exemplo)</h2>
+                <h2 class="subtitle">Posts (por exemplo)</h2>
             </header>
             <article>
                 <header>
-                    <h3>Post #1</h3>
+                    <h3 class="post_title">Post #1</h3>
                 </header>
                 <p>
                     Este Texto aqui serve apenas como meio de 
@@ -40,7 +41,7 @@
                 </p>
             </article>
         </section>
-        
+
         <?php
             for ($i = 0; $i < 10; $i++){
                 print("<span class=\"linha\">Linha numero ". $i . "</span><br />");

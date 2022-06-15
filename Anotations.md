@@ -31,3 +31,34 @@
     2. item 3
 
     <li> -> é um item da lista, seja <ol> ou <ul>
+
+## ID e CLASSES
+    ID -> so pode ser utilizado uma vez na pagina, usamos pra dar exclusividade à um elemento que não queremos repetição, por exemplo.
+
+    CLASS -> pode ser utilizado varias vezes
+
+    exemplo para headers diferentes:
+    <header id="header" class="header"></header>
+    <header class="header"></header>
+
+# Anotações CSS - Expressões Novas para mim
+
+## ADICIONANDO CSS NO ARQUIVO HTML
+
+    Em <head>: 
+        <link rel="stylesheet" href="style.css>  -> rel diz o tipo de arquivo e o href o caminho do arquivo
+
+## ID e CLASSES
+    ID -> Precedida por um hashtag (#)
+    CLASS -> Precedida por um ponto (.)
+
+    exemplo:
+    ID:
+    #header{
+        padding: 15px;
+    }
+
+    CLASS:
+    .header{
+        padding: 10px;
+    }
