@@ -1,6 +1,8 @@
 body{
     background-color: #f7f7f7;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 .top_image{
@@ -42,13 +44,16 @@ a{
     margin-bottom: 15px;
     text-transform: capitalize;
     font-weight: bold;
+    text-align: center;
 }
 
 .post_image{
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .contact_list{
+    background: lightblue;
     list-style-type: none;
     margin: 0;
     padding-left: 15px;

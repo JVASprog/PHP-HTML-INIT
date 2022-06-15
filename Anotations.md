@@ -219,4 +219,19 @@
         list-style-type: url("CAMINHO DA IMAGEM");  -> uma imagem
     }
 
+## DIMENSÕES E ALINHAMENTOS
 
+    Width -> Largura, pode ser especificado em pixel ou porcentagem
+    Height -> Altura, segue a logica do Width
+
+    Max-width -> Valor maximo da largura que o elemento pode ter
+    Max-height -> Valor maximo da altura que o elemento pode ter
+
+    Margin -> Valor AUTO para alinhar automaticamente
+
+    Text align -> serve para alinhar textos
+        valor left -> alinha à esquerda
+        valor right -> alinha à direita
+        valor center -> alinha ao centro
+        valor justify -> justifica o texto, sem espaçamentos
+    

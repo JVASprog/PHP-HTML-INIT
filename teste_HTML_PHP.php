@@ -5,15 +5,7 @@
         <title>primeiro site em PHP uhul</title>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <link rel="stylesheet" href="Style.css">
-        
-        <style type= "text/css">
-            .linha{
-                font-weight: bold;
-                color: blueviolet;
-                padding-left: 20px;
-                line-height: 50px;
-            }
-        </style>
+            
     </head>
     <body>
         <header>
@@ -38,17 +30,27 @@
                     para abrir numa nova aba utilizando o target=_blank 
                     <a href="https://github.com/ZezinZK/PHP-HTML-INIT" target="_blank">Link do git</a>
                     <a href="mailto:josevogeleysa2016@gmail.com">email</a> e telefone caso esteja vendo pelo celular 
-                    <a href="tel:+5581918182828">telefone</a>
+                    <a href="tel:+5581918182828">Número</a>
 
                 </p>
             </article>
         </section>
-
+        
+        <style type= "text/css">
+            .linha{
+                background: blue;
+                font-weight: bold;
+                color: blueviolet;
+                padding-left: 20px;
+                line-height: 50px;
+            }
+        </style>
         <?php
             for ($i = 0; $i < 10; $i++){
                 print("<span class=\"linha\">Linha numero ". $i . "</span><br />");
             }
         ?>
+        
         <footer>
             <ul class="contact_list">Lista desordenada
                 <li>
