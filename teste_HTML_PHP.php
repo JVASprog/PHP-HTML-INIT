@@ -16,6 +16,8 @@
     </head>
     <body>
         <header>
+            <img src="https://s3-us-west-2.amazonaws.com/robogarden-new/Articles/upload/blogs/lg-leverage-of-coding.jpg"
+            alt="Ilustração de um código aleatório">
             <h1>Título Mais relevante</h1>
         </header>
         <section>
