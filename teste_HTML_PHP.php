@@ -18,7 +18,7 @@
     <body>
         <header>
             <img src="https://s3-us-west-2.amazonaws.com/robogarden-new/Articles/upload/blogs/lg-leverage-of-coding.jpg"
-            alt="Ilustração de um código aleatório">
+            alt="Ilustração de um código aleatório" class="top_image">
             <h1 id="title">Título Mais relevante</h1>
         </header>
         <section>
@@ -29,9 +29,9 @@
                 <header>
                     <h3 class="post_title">Post #1</h3>
                     <img src="https://www.bgosoftware.com/blog/wp-content/uploads/2016/03/insidepost_coding.jpg"
-                    alt="Imagem aleatória com código na tela">
+                    alt="Imagem aleatória com código na tela" class="post_image">
                 </header>
-                <p>
+                <p class="post_content">
                     Este Texto aqui serve apenas como meio de 
                     exemplificar a utilização do parágrafo no html 
                     e a utilização de links, então segue o link do meu github e do meu email
