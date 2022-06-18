@@ -41,6 +41,9 @@
     <header id="header" class="header"></header>
     <header class="header"></header>
 
+## BOTOES
+    <button name="nome do botao" onclick="funcao ao clicao no botao">escrita no botao</button>
+
 # Anotações CSS - Expressões Novas para mim
 
 ## ADICIONANDO CSS NO ARQUIVO HTML
