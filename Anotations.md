@@ -32,6 +32,13 @@
 
     <li> -> é um item da lista, seja <ol> ou <ul>
 
+    Formulário:
+    Caixa de input e botao submit
+    <form id="task-form">
+            <input id="task-input" name="tarefa" type="text" placeholder="Digite aqui sua tarefa" />
+            <button type="submit">Adicionar</button>
+        </form>
+
 ## ID e CLASSES
     ID -> so pode ser utilizado uma vez na pagina, usamos pra dar exclusividade à um elemento que não queremos repetição, por exemplo.
 
@@ -42,7 +49,8 @@
     <header class="header"></header>
 
 ## BOTOES
-    <button name="nome do botao" onclick="funcao ao clicao no botao">escrita no botao</button>
+    <button name="nome do botao" type="tipo do botao" onclick="funcao ao clicao no botao">escrita no botao</button>
+    type -> pode ser um tipo de botao "submit"
 
 # Anotações CSS - Expressões Novas para mim
 
